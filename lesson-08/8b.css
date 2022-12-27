@@ -1,0 +1,12 @@
+p {
+    font-family: Arial;
+    width: 200px;
+    font-size: 15px;
+    text-align: justify;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  button {
+    vertical-align: middle;
+  }

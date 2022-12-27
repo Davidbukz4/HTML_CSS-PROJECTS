@@ -1,0 +1,25 @@
+p {
+    font-family: Arial;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.username {
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+.username-time-span {
+    font-weight: normal;
+    color: rgb(83, 81, 81);
+}
+.first-paragraph {
+    margin-bottom: 7px;
+    width: 470px;
+    line-height: 22px;
+}
+.second-paragraph {
+    margin-bottom: 7px;
+}
+.chp-span {
+    color: rgb(95, 95, 233);
+}
