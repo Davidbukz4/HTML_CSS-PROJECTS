@@ -1,0 +1,31 @@
+p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .email {
+    margin-bottom: 10px;
+  }
+  .search-bar {
+    width: 365px;
+    height: 30px;
+    border-radius: 5px;
+    border-style: solid;
+    margin-bottom: 15px;
+    margin-left: -3px;
+  }
+  .condition {
+    margin-bottom: 20px;
+    color: rgb(102, 100, 100);
+  }
+  .agree-button {
+    border: none;
+    width: 380px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 30px;
+    background-color: rgb(68, 68, 253);
+  }

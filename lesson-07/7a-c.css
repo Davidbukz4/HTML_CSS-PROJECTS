@@ -1,0 +1,14 @@
+.rounded-corners {
+    width: 200px;
+    border-radius: 20px;
+    vertical-align: top;
+  }
+  .square-corners {
+    width: 150px;
+    height: 150px;
+  }
+  .circle-corners {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+  }
