@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/registration" method="post">
+      <label for="username">Username:</label><br />
+      <input type="text" name="username" /><br />
+      <label for="password">Password:</label><br />
+      <input type="text" /><br />
+      <input type="submit" /><br />
+      <!--to add checkboxes-->
+      <input type="checkbox" name="dog" value="Dog" />
+      <label for="dog">I own a dog</label><br />
+      <input type="checkbox" name="cat" value="Cat" />
+      <label for="cat">I own a cat</label><br />
+      <!--radio buttons-->
+      <input type="radio" name="right" value="Right" />
+      <label for="right">I am right-handed</label><br />
+      <input type="radio" name="left" value="Left" />
+      <label for="left">I am left-handed</label><br />
+      <!--  Other input types: number, email, file
+            For multiline text: use text area type
+            Drop-down list: use select tag and for items on the list use option tags-->
+    </form>
+  </body>
+</html>
