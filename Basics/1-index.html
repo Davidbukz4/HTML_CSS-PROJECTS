@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Meta tag: displays information about data-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="David Egwuatu" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, CSS, Tutorial" />
+    <!--Displayed on the browsers tab-->
+    <title>Advanced HTML</title>
+    <!--link css or javascript files-->
+    <link rel="stylesheet" href="1-style.css" type="text/css" />
+    <link rel="icon" href="images/icon.png" type="image/x-icon" />
+    <!--Base tag: sets the default URL and target for all links on a page-->
+    <base target="_blank" />
+  </head>
+  <body>
+    <!--Divide a page into columns-->
+    <table class="layout_table">
+      <tr>
+        <td class="table-text">
+          This is some text. This is some text. This is some text. This is some
+          text. This is some text.
+        </td>
+        <td class="table-text">
+          Another text. Another text. Another text. Another text. Another text.
+          Another text. Another text.
+        </td>
+      </tr>
+    </table>
+    <hr />
+    <!--Frameset: displays more than one html document in one browser-->
+    <iframe src="images/bc2d3aec.jpg" frameborder="10"></iframe>
+    <hr />
+    <!--HTML fonts-->
+    <!--font tag-->
+    <h1 id="h1-1">A heading</h1>
+    <p id="p-1">A paragraph</p>
+    <hr />
+    <a href="0-index.html" id="a-1">This is a link</a>
+    <!--HTML character entities: used to display special characters. Format: &entity_name or &#entity_number-->
+    <p>&lt;&nbsp; or &nbsp;&#60; displays the less than sign</p>
+    <hr />
+    <!--HTML URLs-->
+    <!--Accessing a newsgroup-->
+    <a href="news:alt.html">HTML newsgroup</a><br />
+    <!--Downloading with ftp-->
+    <a href="ftp://www.google.com/ftp/winzip.exe">Download WinZip</a><br />
+    <!--Link to your mail system-->
+    <a href="mailto:davidegwuatu2@gmail.com">Mail me</a><br />
+    <!--HTML script-->
+    <script type="text/javascript">
+      document.write("This is a javascript text");
+    </script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+.layout_table {
+    border: 0;
+    width: 100%;
+    padding: 10;
+}
+
+.table-text {
+    width: 50%;
+    vertical-align: top;
+}
+
+#h1-1 {
+    font-family: verdana;
+    font-size: 150%;
+    color: blue;
+}
+
+#p-1 {
+    font-family: courier;
+    font-size: 80%;
+    color: red;
+}
+
+#a-1 {
+    text-decoration: none;
+}

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Language specified as english-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Title</title>
+    <!--This title is displayed at the browser's tab-->
+  </head>
+  <body>
+    <h1>MyFirst Heading</h1>
+    <p>My first paragraph</p>
+    <!--HTML links: can reference urls, and other html files and elements-->
+    <!--_blank opens in new tab, _self opens in same tab(default)-->
+    <!--href="#label" can link to an element in the same page-->
+    <a href="https://www.google.com" target="_parent">Google</a><br />
+    <!--mailto link-->
+    <a href="mailto:davidegwuatu2@gmail.com" target="_blank">Mail me</a>
+    <!--HTML images: can reference image files to display-->
+    <img src="/images/images.jpg" alt="An image" />
+    <!--Image map: provides clickable regions on the image-->
+    <img
+      src="/images/bc2d3aec.jpg"
+      width="145"
+      height="126"
+      usemap="#batterymap"
+    />
+    <map name="batterymap">
+      <area
+        shape="rect"
+        coords="0,0,82,126"
+        alt="Sun"
+        href="sun.
+        htm"
+      />
+      <area shape="circle" coords="90,58,3" alt="Mercury" href="mercur.htm" />
+      <area shape="circle" coords="124,58,8" alt="Venus" href="venus.htm" />
+    </map>
+    <!--Line breaks: break a block element, it has no end tag-->
+    <p>
+      This is a paragraph <br />
+      with a line break
+    </p>
+    <!--Inline styling-->
+    <p style="color: red">This is a red paragraph.</p>
+    <!--Title attribute: is displayed when you hover over the element-->
+    <p title="See me">This displays a title</p>
+    <!--Horizontal rule: it creates a line across the browser page-->
+    <hr />
+    <!--Bold tag: displays text in bold-->
+    <p><b>This text is bold</b></p>
+    <!--Strong tag: displays text in bold and indicate semantic importance-->
+    <p><strong>This text is strong</strong></p>
+    <!--Big tag: increases the font size, not supported in html5-->
+    <p><big>This text is big</big></p>
+    <!--Emphasis tag: used to stress importance on a text-->
+    <p><em>This text is emphasized</em></p>
+    <!--Italics tag: used for presentation purposes-->
+    <p><i>This text is italized</i></p>
+    <!--Small tag-->
+    <p><small>This text is small</small></p>
+    <!--Subscript and superscript tag-->
+    <p>This is <sub>subscript</sub> and <sup>superscript</sup></p>
+    <!--Preformatted tag: it keeps line breaks, spaces and character width in the output-->
+    <pre>
+    for i = 1 to 10
+        print i
+    next i
+    </pre>
+    <!--Address tag-->
+    <address>
+      Donald Duck<br />
+      BOX 333<br />
+      Disneyland<br />
+      USA
+    </address>
+    <p>
+      <a href="#C4">See also Chapter 4.</a>
+    </p>
+    <h2>Chapter 1</h2>
+    <p>This chapter explains ba bla bla</p>
+    <p><a href="#C11">Move to Chapter 11</a></p>
+    <h2>Chapter 2</h2>
+    <p>This chapter explains ba bla bla</p>
+    <h2>Chapter 3</h2>
+    <p>This chapter explains ba bla bla</p>
+    <h2><a name="C4">Chapter 4</a></h2>
+    <p>This chapter explains ba bla bla</p>
+    <h2>Chapter 5</h2>
+    <p>This chapter explains ba bla bla</p>
+    <h2>Chapter 6</h2>
+    <p>This chapter explains ba bla bla</p>
+    <h2>Chapter 7</h2>
+    <p>This chapter explains ba bla bla</p>
+    <h2>Chapter 8</h2>
+    <p>This chapter explains ba bla bla</p>
+    <h2>Chapter 9</h2>
+    <p>This chapter explains ba bla bla</p>
+    <h2>Chapter 10</h2>
+    <p>This chapter explains ba bla bla</p>
+    <h2 id="C11">Chapter 11</h2>
+    <p>This chapter explains ba bla bla</p>
+    <hr />
+    <!--HTML Table-->
+    <!--table: table element, tr: table row, th: table header, td: table data-->
+    <h4>One column:</h4>
+    <!--Caption: adds a caption to the table-->
+    <table border="2">
+      <caption>
+        Family data
+      </caption>
+      <tr>
+        <th>Name</th>
+        <th colspan="2">Biodata</th>
+      </tr>
+      <tr>
+        <td>Dave</td>
+        <td rowspan="2">24</td>
+        <td>M</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>F</td>
+      </tr>
+    </table>
+    <hr />
+    <!--HTML Lists-->
+    <ul type="square">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+    <ol type="i">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol>
+    <hr />
+    <!--HTML Forms-->
+    <form action="">
+      First name:
+      <input type="text" name="firstname" /><br />
+      Last name:
+      <input type="text" name="lastname" /><br />
+      <!--Check boxes-->
+      I have a bike:
+      <input type="checkbox" name="vehicle" value="Bike" /><br />
+      I have a car:
+      <input type="checkbox" name="vehicle" value="Car" /><br />
+      I have an airplane:
+      <input type="checkbox" name="vehicle" value="Airplane" /><br />
+      <!--Radio buttons-->
+      Male:
+      <input type="radio" checked="checked" name="sex" value="male" /><br />
+      Female:
+      <input type="radio" name="sex" value="female" /><br />
+      <!--Drop-down list (select)-->
+      <select name="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab" selected="selected">Saab</option>
+        <option value="Fiat">Fiat</option>
+        <option value="audi">Audi</option></select
+      ><br />
+      <!--Text area. NB: can be in a form or anywhere in a page-->
+      <textarea name="suggestions" id="" cols="30" rows="10"></textarea><br />
+      <!--Button-->
+      <button type="button">Send button</button>
+    </form>
+    <!--Fieldset-->
+    <fieldset>
+      <legend>Health information:</legend>
+      <form action="">
+        Height <input type="text" size="3" /> <br />
+        Weight <input type="text" size="3" />
+      </form>
+    </fieldset>
+    <!--Action attribute-->
+    <form name="input" action="html_form_submit.asp" method="get">
+      Username: <input type="text" name="user" value="Enter username" />
+      <input type="submit" value="Submit" />
+    </form>
+    <!--Send email from a form-->
+    <form
+      action="MAILTO:davidegwuatu2@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <h3>This form sends an email to david</h3>
+      Name: <br />
+      <input type="text" name="name" value="enter name here" size="20" /><br />
+      Mail: <br />
+      <input type="text" name="mail" value="enter email" size="20" /><br />
+      Comment: <br />
+      <input
+        type="text"
+        name="comment"
+        value="your comment"
+        size="40"
+      /><br /><br />
+      <input type="submit" value="Send" />
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>
