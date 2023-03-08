@@ -1,0 +1,26 @@
+/* element selector has a priority value of 1 */
+/* class selector has a priority value of 10 */
+/* id selector has a priority value of 100 */
+/* inline styling has a priority value of 1000 */
+/* The !important rule */
+p {
+    background-color: red;
+}
+
+#myid {
+    background-color: blue;
+}
+
+.myclass {
+    background-color: gray !important;
+}
+
+/* Using min, max and calc function in css */
+div {
+    position: absolute;
+    left: min(80px, 50px);
+    width: calc(100% - 100px);
+    border: 1px solid black;
+    background-color: yellow;
+    padding: max(3px, 5px);
+}

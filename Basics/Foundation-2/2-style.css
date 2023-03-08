@@ -1,0 +1,252 @@
+h1 {
+    /* color: specifies color of text */
+    color: white;
+    /* text-align: sets the horizontal alignment of a text */
+    text-align: justify;
+    /* text-align-last: aligns the last line of the text to specified position */
+    text-align-last: center;
+    /* text-decoration: adds a decoration line to text */
+    text-decoration-line: line-through;
+    /* text-decoration-color: sets the decoration color */
+    text-decoration-color: red;
+    /* border: specifies styles for element border */
+    border: 2px solid rgb(2, 2, 105); /* rgb(red, green, blue) */
+    /* background-color: specifies color for element background */
+    background-color: rgba(0, 0, 255, 0.9); /* rgba(red, green, blue, opacity(0-1)) */
+    /* opacity: specifies opacity of element */
+    opacity: 0.8;
+}
+
+body {
+    /* background-image: specifies an image to use as background of an element */
+    /* the image is repeated by default */
+    background-image: url("images/hd-wallpapers-for-pc-011.jpg");
+    /* background-repeat: specifies the repeat property of background image */
+    background-repeat: no-repeat;
+    /* background-position: specifies the background position of the image */
+    background-position: right top;
+    /* background-attachment: specifies whether the background image should scroll or be fixed */
+    background-attachment: fixed;
+}
+
+p.dotted {
+    /* Other CSS border properties will have no effect till border style is set */
+    border-style: dotted;
+    /* border-width: specifies width of the borders */
+    border-width: 5px;
+    /* border-color: sets the color of the four borders */
+    border-color: yellow;
+    /* padding: creates space around an element's content inside of the borders */
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+p.dashed {
+    border-style: dashed;
+    border-width: medium;
+}
+
+p.solid {
+    border-style: solid;
+    border-width: 2px;
+    /* border-radius: adds rounded borders to an element */
+    border-radius: 5px;
+}
+
+p.double {
+    border-style: double;
+    border-width: thick;
+}
+
+p.groove {
+    border-style: groove;
+    border-width: 7px 6px; /* 7px top and bottom, 6px on the sides */
+    /* margin: used to create space around element outside of the borders */
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+p.ridge {
+    border-style: ridge;
+    border-width: 10px 8px 6px 7px; /* 10px top, 8px right, 6px bottom, 7px left */
+    /* margin: shorthand property with 4 values */
+    margin: 30px 31px 32px 33px;
+}
+
+p.inset {
+    /* height/width: sets the height/width of the area inside the padding, border and margin of the element */
+    height: 30px;
+    width: 50%;
+    /* max-width/max-height: sets the maximum width/height of an element */
+    max-width: 70%;
+    border-style: inset;
+    margin: 0 0 50px 0;
+}
+
+p.outset {
+    border-style: outset;
+    /* outline: a line drawn outside the element border */
+    /* NB: other outline properties won't work unless outline-style prop is set */
+    outline-style: outset;
+    outline-width: 5px;
+    outline-color: grey;
+    /* outline-offset: adds space between an outline and the border */
+    outline-offset: 3px;
+    margin: 20px 0 0 0;
+}
+
+p.none {
+    /* css borders individual sides */
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+}
+
+p.hidden {
+    /* text-transform: it specifies uppercase or lowercase */
+    text-transform: uppercase;
+    border-style: hidden;
+    /* vertical align: sets the vevrtical alignment of an element */
+    vertical-align: auto;
+}
+
+p.mix {
+    /* direction and unicode-bidi sets the text direction of an element */
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    border-style: dotted dashed solid double;
+}
+
+.random-text {
+    /* font-family: sets how readable your text is */
+    /* it should have several font names as a fallback, to ensure compatibility between browser and OS, also end with a generic family */
+    font-family: 'Times New Roman', Times, serif; 
+    /* font-style: mostly used to specify italics text */
+    font-style: italic;
+    /* font-weight: sets the weight of the font */
+    font-weight: bolder;
+    /* font-variant: specifies whether a text should be displayed in small-caps font */
+    font-variant: small-caps;
+    /* font-size: sets the size of text */
+    font-size: 40px;
+    /* text-indent: specifies the indentation of the first line */
+    text-indent: 20px;
+    /* letter-spacing: specifies the spacing betwen each character */
+    letter-spacing: 1px;
+    /* line-height: specifies the space between lines of text */
+    line-height: 30px;
+    /* word-spacing: specifies the spacing between words in a text */
+    word-spacing: 5px;
+    /* white-space: specifies how white space inside an element is handled */
+    white-space: normal;
+    /* text-shadow: adds shadow to text */
+    text-shadow: 2px 2px 5px gray; /* horizontal, vertical, blur, color */
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+    /* text-decoration: mainly used to remove underlines */
+    text-decoration: none;
+    background-color: gray;
+}
+
+/* visited link */
+a:visited {
+    color: rgb(18, 4, 146);
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* when clicked */
+a:active {
+    color: rgb(0, 0, 153);
+    text-decoration: none;
+}
+
+/* List styling */
+ul.a {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+ul.b {
+    list-style-type: square;
+}
+
+ol.c {
+    list-style-type: upper-roman;
+}
+
+ol.d {
+    list-style-type: lower-alpha;
+}
+
+/* Table styling */
+table, tr, th, td {
+    border: none;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    text-align: center;
+    height: 40px;
+    background-color: #12aa04;
+}
+
+td {
+    height: 30px;
+    vertical-align: bottom;
+}
+
+tr:nth-child(even) {
+    background-color: #73b917;
+}
+
+th, td {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+div {
+    overflow-x: auto;
+}
+
+.lorem-2 {
+    display: inline;
+    /* visibility: hides an element but still occupies the space */
+    /* visibility: hidden; */
+    /* position: static - it positions element according to normal page flow */
+    /* position: relative - it can be adjusted away from its normal position, other element won't take up any space left by it */
+    /* position: fixed - it positions element in the same place even if page is scrolled */
+    position: static; /* had to change it from absolute cos of the next element */
+    /* z-index: sets the stack order of the element */
+    z-index: -1;
+    overflow: auto;
+    /* clear: it places this element below floated element */
+    clear: left;
+}
+
+.lorem-2-img {
+    width: 10%;
+    height: 10%;
+    /* float: specifies how element should float */
+    float: left;
+
+}
+
